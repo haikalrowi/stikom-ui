@@ -3,5 +3,9 @@
   "version": "1.0.0",
   "description": "STIKOM UI Monorepo",
   "author": "STIKOM PGRI Banyuwangi",
-  "license": "MIT"
+  "license": "MIT",
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ]
 }
