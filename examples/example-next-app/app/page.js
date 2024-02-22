@@ -1,4 +1,4 @@
-import { Stack, Heading } from "@stikom-ui/react";
+import { Heading, Stack } from "@stikom-ui/react";
 
 export default function Home() {
   return (
