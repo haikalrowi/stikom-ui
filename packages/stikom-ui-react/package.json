@@ -1,0 +1,34 @@
+{
+  "name": "@stikom-ui/react",
+  "version": "0.7.1",
+  "description": "React component library powered by Tailwind CSS",
+  "keywords": [
+    "react",
+    "react-components",
+    "design-system"
+  ],
+  "homepage": "https://stikom-ui-docs.vercel.app/",
+  "license": "MIT",
+  "author": "STIKOM PGRI Banyuwangi",
+  "type": "module",
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "tailwind.config.ts"
+  ],
+  "scripts": {
+    "prepare": "rollup --config"
+  },
+  "dependencies": {
+    "clsx": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18"
+  },
+  "peerDependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwindcss": "^3"
+  }
+}
