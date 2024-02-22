@@ -1,6 +1,6 @@
 {
   "name": "@stikom-ui/react",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "description": "React component library powered by Tailwind CSS",
   "keywords": [
     "react",
