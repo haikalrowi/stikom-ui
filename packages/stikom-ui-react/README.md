@@ -1,4 +1,4 @@
-# STIKOM UI
+# @stikom-ui/react
 
 > :warning: Under development.
 
