@@ -2,10 +2,21 @@
   "name": "stikom-ui",
   "version": "1.0.0",
   "description": "STIKOM UI Monorepo",
-  "author": "STIKOM PGRI Banyuwangi",
   "license": "MIT",
+  "author": "STIKOM PGRI Banyuwangi",
   "workspaces": [
     "packages/*",
     "examples/*"
-  ]
+  ],
+  "scripts": {
+    "format:check": "prettier . --check",
+    "format:write": "prettier . --write",
+    "sort-imports:check": "prettier . --check --plugin=@trivago/prettier-plugin-sort-imports --import-order-sort-specifiers --import-order-group-namespace-specifiers",
+    "sort-imports:write": "prettier . --write --plugin=@trivago/prettier-plugin-sort-imports --import-order-sort-specifiers --import-order-group-namespace-specifiers"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "prettier": "3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.11"
+  }
 }
