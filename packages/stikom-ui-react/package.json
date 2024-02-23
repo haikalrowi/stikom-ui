@@ -7,7 +7,7 @@
     "react-components",
     "design-system"
   ],
-  "homepage": "https://stikom-ui-docs.vercel.app/",
+  "homepage": "https://stikom-ui.vercel.app/",
   "repository": {
     "type": "git",
     "url": "https://github.com/haikalrowi/stikom-ui.git",

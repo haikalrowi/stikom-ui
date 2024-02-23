@@ -5,7 +5,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 const config: Config = {
   title: "STIKOM UI",
   favicon: "img/favicon.ico",
-  url: "https://stikom-ui-docs.vercel.app",
+  url: "https://stikom-ui.vercel.app/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -30,7 +30,7 @@ const config: Config = {
           label: "Components",
         },
         {
-          href: "https://github.com/haikalrowi/stikom-ui-docs",
+          href: "https://github.com/haikalrowi/stikom-ui",
           label: "GitHub",
           position: "right",
         },
@@ -52,7 +52,7 @@ const config: Config = {
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/haikalrowi/stikom-ui-docs",
+              href: "https://github.com/haikalrowi/stikom-ui",
             },
           ],
         },
@@ -68,7 +68,8 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          editUrl: "https://github.com/haikalrowi/stikom-ui-docs/tree/main",
+          editUrl:
+            "https://github.com/haikalrowi/stikom-ui/tree/main/websites/documentation",
         },
         theme: { customCss: "./src/css/custom.css" },
       } satisfies Preset.Options,
