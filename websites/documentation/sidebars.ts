@@ -1,7 +1,7 @@
 import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
 
 const sidebars: SidebarsConfig = {
-  docs: ["prerequisites", "installation", "core-concepts"],
+  learn: ["prerequisites", "installation", "core-concepts"],
   components: [
     {
       type: "category",
@@ -54,6 +54,7 @@ const sidebars: SidebarsConfig = {
       ],
     },
   ],
+  examples: ["examples/vite", "examples/next", "examples/degit"],
 };
 
 export default sidebars;
