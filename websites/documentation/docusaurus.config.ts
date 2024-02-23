@@ -19,7 +19,7 @@ const config: Config = {
       items: [
         {
           type: "docSidebar",
-          sidebarId: "docs",
+          sidebarId: "learn",
           position: "left",
           label: "Learn",
         },
@@ -28,6 +28,12 @@ const config: Config = {
           sidebarId: "components",
           position: "left",
           label: "Components",
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "examples",
+          position: "left",
+          label: "Examples",
         },
         {
           href: "https://github.com/haikalrowi/stikom-ui",
@@ -59,7 +65,10 @@ const config: Config = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} STIKOM PGRI Banyuwangi. Built with Docusaurus.`,
     },
-    prism: { theme: prismThemes.vsLight, darkTheme: prismThemes.vsDark },
+    prism: {
+      theme: prismThemes.vsLight,
+      darkTheme: prismThemes.vsDark,
+    },
   } satisfies Preset.ThemeConfig,
   themes: ["@docusaurus/theme-live-codeblock"],
   presets: [
