@@ -6,7 +6,8 @@
   "author": "STIKOM PGRI Banyuwangi",
   "workspaces": [
     "packages/*",
-    "examples/*"
+    "examples/*",
+    "websites/*"
   ],
   "scripts": {
     "format:check": "prettier . --check --plugin=prettier-plugin-tailwindcss",
