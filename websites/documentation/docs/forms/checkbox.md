@@ -16,7 +16,7 @@ import { Checkbox } from "@stikom-ui/react";
 
 ## Props
 
-## `size`
+### `size`
 
 ```jsx live
 <IFrame>
