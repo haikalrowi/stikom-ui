@@ -16,9 +16,9 @@
   "license": "MIT",
   "author": "STIKOM PGRI Banyuwangi",
   "type": "module",
-  "main": "dist/index.js",
+  "main": "./dist",
   "files": [
-    "dist",
+    "./dist",
     "tailwind.config.ts"
   ],
   "scripts": {
