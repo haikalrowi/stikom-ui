@@ -15,7 +15,7 @@ export default defineConfig({
   ],
   input: "./src/index.ts",
   output: {
-    dir: "./dist",
+    dir: pkg.main,
   },
   plugins: [typescript()],
 });
