@@ -2,7 +2,8 @@
   "compilerOptions": {
     "declaration": true,
     "declarationDir": "./dist",
+    "esModuleInterop": true,
     "jsx": "react"
   },
-  "exclude": ["tailwind.config.ts"]
+  "exclude": ["./dist", "tailwind.config.ts"]
 }
